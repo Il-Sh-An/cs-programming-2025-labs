@@ -4,3 +4,5 @@
 1. [Расписание на первую неделю](/labs/lab2/timetable_1w.md)
 2. [Расписание на вторую неделю](/labs/lab2/timetable_2w.md)
 3. [Расписание на третью неделю](/labs/lab2/timetable_3w.md)
+
+[Картинка кота](/labs/lab2/cat.jfif)
