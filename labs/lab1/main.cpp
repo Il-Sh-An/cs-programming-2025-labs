@@ -27,7 +27,7 @@ void f3(){
     double b = 56.2;
     std::string s = "43";
 
-    double n = a + b + std::stoi(s);
+    double n = a + b + std::stod(s);
     std::cout << n;
 }
 
