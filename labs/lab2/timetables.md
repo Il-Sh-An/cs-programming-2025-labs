@@ -5,4 +5,4 @@
 2. [Расписание на вторую неделю](/labs/lab2/timetable_2w.md)
 3. [Расписание на третью неделю](/labs/lab2/timetable_3w.md)
 
-[Картинка кота](/labs/lab2/cat.jfif)
+![Картинка кота](/labs/lab2/cat.jfif)
