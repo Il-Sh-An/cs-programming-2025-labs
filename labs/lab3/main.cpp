@@ -7,7 +7,7 @@ using namespace std::string_literals;
 
 void F1(){
     std::string name;
-    int age = 0;
+    int age;
 
     std::cout << "Введите имя и возраст\n";
 
@@ -20,7 +20,7 @@ void F1(){
 
 void F2(){
     std::cout << "Введите число:\n";
-    int n = 0;
+    int n;
     std::cin >> n;
     for(int i = 1; i < 10;++i){
         std::cout << std::format("{} * {} = {}\n",n,i,n*i);
@@ -28,7 +28,8 @@ void F2(){
 }
 
 void F3(){
-    for(int i = 1;i < 101; ++i){
+    std::cout << "Каждое третье число от 0 до 100:\n";
+    for(int i = 1;i <= 100; ++i){
         if(i % 3 == 0){
            std::cout << i - 1 << ", ";
         }  
@@ -36,15 +37,20 @@ void F3(){
 }
 
 void F4(){
-    uint64_t input = 0;
+    int64_t input;
     std::cout << "Введите число:\n";
     std::cin >> input;
-
-    uint64_t factorial = 1;
-    for(uint64_t i = 1; !(i > input); ++i){
-        factorial *= i;
+    if (input < 0){
+        std::cout << "Ошибка, отрицательное число\n";
+    }else if(input == 0){
+        std::cout << 0;
+    }else{
+        uint64_t factorial = 1;
+        for(uint64_t i = 1; !(i > input); ++i){
+            factorial *= i;
+        }
+        std::cout << factorial;    
     }
-    std::cout << factorial;
 }
 
 void F5(){
