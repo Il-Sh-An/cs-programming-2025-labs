@@ -15,7 +15,7 @@ void F1(){
     if(temperature_ > 120 || temperature_ < -100){
         throw std::logic_error("Нереальная температура");
     }
-    std::cout << "Кондиционер "s << ((temperature_ >= 20)?"выключен\n"s:"ключен\n"s);
+    std::cout << "Кондиционер "s << ((temperature_ >= 20) ? "выключен\n"s : "ключен\n"s);
 }
 
 void F2(){
@@ -26,7 +26,7 @@ void F2(){
     if(month_count_ < 1 || month_count_ > 12){
         throw std::logic_error("Это что за месяц?");
     }
-    std::cout << "Это " << month.at((uint64_t)month_count_ / 4);
+    std::cout << "Это " << month.at(static_cast<uint64_t>(month_count_) / 4);
 }
 
 void F3(){
@@ -140,7 +140,6 @@ void F5(){
     }else{
         std::cout << "Пароль ненадежный: отсутствуют " << pass_checker.GetWarning();
     }
-    
 }
 
 void F6(){
