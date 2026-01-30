@@ -12,3 +12,7 @@
 [Пятая лабораторная](/labs/lab5/main.cpp)
 
 [Шестая лабораторная](/labs/lab6/main.cpp)
+
+[Ceдьмая лабораторная](/labs/lab7/main.cpp)
+
+[Восьмая лабораторная](/labs/lab8/main.cpp)
