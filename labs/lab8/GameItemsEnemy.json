@@ -1,0 +1,19 @@
+{
+    "items": [
+        { "name" : "Деревянный меч","mod_type" : 2, "item_type" : 5, "mod" : 1 },
+        { "name" : "Стальной меч","mod_type" : 2, "item_type" : 5, "mod" : 3},
+        { "name" : "Деревянная броня","mod_type" : 3, "item_type" : 1, "mod" : 1},
+        { "name" : "Стальная броня","mod_type" : 3, "item_type" : 1, "mod" : 3},
+        { "name" : "Зелье лечения","mod_type" : 1, "item_type" : 2, "mod" : 3},
+        { "name" : "Яд","mod_type" : 2, "item_type" : 2, "mod" : 7},
+        { "name" : "Монета","mod_type" : 0, "item_type" : 4, "mod" : 1},
+        { "name" : "Деревянный щит","mod_type" : 3, "item_type" : 3, "mod" : 3},
+        { "name" : "Стальной щит","mod_type" : 3, "item_type" : 3, "mod" : 6}
+    ],
+
+    "enemies": [
+        { "name" : "Гоблин","attack" : 5, "defense" : 1, "hp" : 5 },
+        { "name" : "Хоб Гоблин","attack" : 7, "defense" : 1, "hp" : 8 },
+        { "name" : "Призрак","attack" : 9, "defense" : 1, "hp" : 6 }
+    ]
+}

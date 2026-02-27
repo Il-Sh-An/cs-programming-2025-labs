@@ -1,0 +1,30 @@
+{
+    "Human" : {
+        "height" : {"min" : 170, "max": 190},
+        "attack" : {"min" : 6, "max": 7},
+        "defense" : {"min" : 3, "max": 6},      
+        "agility" : {"min" : 3, "max": 6},
+        "hp" : {"min" : 10, "max": 13}
+    },
+    "Dworf" : {
+        "height" : {"min" : 130, "max": 150},
+        "attack" : {"min" : 6, "max": 7},
+        "defense" : {"min" : 3, "max": 7},      
+        "agility" : {"min" : 3, "max": 6},
+        "hp" : {"min" : 10, "max": 13}
+    },
+    "Giant" : {
+        "height" : {"min" : 200, "max": 250},
+        "attack" : {"min" : 3, "max": 7},
+        "defense" : {"min" : 3, "max": 7},      
+        "agility" : {"min" : 3, "max": 6},
+        "hp" : {"min" : 10, "max": 17}
+    },
+    "Elf" : {
+        "height" : {"min" : 180, "max": 210},
+        "attack" : {"min" : 3, "max": 7},
+        "defense" : {"min" : 3, "max": 7},      
+        "agility" : {"min" : 3, "max": 7},
+        "hp" : {"min" : 10, "max": 14}
+    }
+}
